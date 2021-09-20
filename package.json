@@ -1,16 +1,14 @@
 {
 	"name": "sample-game",
 	"version": "0.0.1",
-	"description": "Sample multi- & singleplayer game",
+	"description": "sae",
 	"main": "srvr.js",
 	"scripts": {
-		"start": "node --harmony server.js",
-		"debug": "DEBUG=app,app:* node --harmony server.js"
+		"start": "node server.js"
 	},
 	"keywords": [],
-	"author": "Anatoliy Ostapenko",
+	"author": "",
 	"dependencies": {
-		"debug": "^2.6.9",
 		"eventemitter2": "^3.0.2",
 		"express": "^4.17.1",
 		"express-ws": "^5.0.2"
